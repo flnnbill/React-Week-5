@@ -32,6 +32,7 @@ class CommentForm extends Component {
     
     formAlert (values) {
         alert("Current state is: " + JSON.stringify(values));
+        console.log("Current state is: " + JSON.stringify(values))
     }
 
     render() {
